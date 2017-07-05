@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="34ece3c94f73320030938c318110c726" sys_domain="global" table="x_78983_spanish_ve_x_78983_verb_conjugation" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mood</element>
+            <position>0</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>34ece3c94f73320030938c318110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mood_english</element>
+            <position>1</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>b4ece3c94f73320030938c318110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tense</element>
+            <position>2</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>38ece3c94f73320030938c318110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tense_english</element>
+            <position>3</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>b8ece3c94f73320030938c318110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>verb</element>
+            <position>4</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>70eca30d4f73320030938c318110c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>form_1p</element>
+            <position>5</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>f0eca30d4f73320030938c318110c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>form_1s</element>
+            <position>6</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>74eca30d4f73320030938c318110c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>form_2p</element>
+            <position>7</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>f4eca30d4f73320030938c318110c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>form_2s</element>
+            <position>8</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>78eca30d4f73320030938c318110c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>form_3p</element>
+            <position>9</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>f8eca30d4f73320030938c318110c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>form_3s</element>
+            <position>10</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>7ceca30d4f73320030938c318110c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gerund</element>
+            <position>11</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>fceca30d4f73320030938c318110c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gerund_english</element>
+            <position>12</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>70eca30d4f73320030938c318110c716</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>past_participle</element>
+            <position>13</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>f0eca30d4f73320030938c318110c716</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>verb_english</element>
+            <position>14</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>74eca30d4f73320030938c318110c716</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>past_participle_english</element>
+            <position>15</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>f4eca30d4f73320030938c318110c716</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>display</element>
+            <position>16</position>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_id>78eca30d4f73320030938c318110c716</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_spanish_ve_x_78983_verb_conjugation" sys_domain="global" view="Default view">34ece3c94f73320030938c318110c726</sys_ui_section>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 11:47:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34ece3c94f73320030938c318110c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_78983_spanish_ve_x_78983_verb_conjugation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Spanish verb dictionary" source="x_78983_spanish_ve">9c93c3414f33320030938c318110c79c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Spanish verb dictionary">9c93c3414f33320030938c318110c79c</sys_scope>
+            <sys_update_name>sys_ui_section_34ece3c94f73320030938c318110c726</sys_update_name>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 11:47:02</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
