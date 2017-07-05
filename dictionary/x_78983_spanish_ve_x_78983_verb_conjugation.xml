@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Verb Conjugation" max_length="40" name="x_78983_spanish_ve_x_78983_verb_conjugation" type="collection">
+        <element label="Form 1p" max_length="100" name="form_1p" type="string"/>
+        <element label="Form 1s" max_length="100" name="form_1s" type="string"/>
+        <element label="Form 2p" max_length="100" name="form_2p" type="string"/>
+        <element label="Form 2s" max_length="100" name="form_2s" type="string"/>
+        <element label="Form 3p" max_length="100" name="form_3p" type="string"/>
+        <element label="Form 3s" max_length="100" name="form_3s" type="string"/>
+        <element label="Gerund" max_length="100" name="gerund" type="string"/>
+        <element label="Gerund English" max_length="100" name="gerund_english" type="string"/>
+        <element label="Mood" max_length="100" name="mood" type="string"/>
+        <element label="Mood English" max_length="100" name="mood_english" type="string"/>
+        <element label="Past Participle" max_length="100" name="past_participle" type="string"/>
+        <element label="Past Participle English" max_length="100" name="past_participle_english" type="string"/>
+        <element label="Tense" max_length="100" name="tense" type="string"/>
+        <element label="Tense English" max_length="100" name="tense_english" type="string"/>
+        <element label="Verb" max_length="32" name="verb" reference="x_78983_spanish_ve_x_78983_spanish_verbs" type="reference"/>
+        <element label="Verb English" max_length="100" name="verb_english" type="string"/>
+        <index name="index">
+            <element name="verb"/>
+        </index>
+    </element>
+</database>

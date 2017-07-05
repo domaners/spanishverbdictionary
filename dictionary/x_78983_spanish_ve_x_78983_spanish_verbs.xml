@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Spanish Verbs" max_length="40" name="x_78983_spanish_ve_x_78983_spanish_verbs" type="collection"/>
+    <element label="Spanish Verbs" max_length="40" name="x_78983_spanish_ve_x_78983_spanish_verbs" type="collection">
+        <element label="Definition" max_length="1000" name="definition" type="string"/>
+        <element display="true" label="Infinitive" max_length="40" name="infinitive" type="string"/>
+        <index name="index">
+            <element name="infinitive"/>
+        </index>
+    </element>
 </database>

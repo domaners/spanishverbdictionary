@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Spanish Verbs Import" max_length="40" name="x_78983_spanish_ve_spanish_verbs_import" sizeclass="11466" type="collection">
+        <element attributes="import_attribute_name=form_1p,edge_encryption_enabled=true" label="form_1p" max_length="40" name="u_form_1p" type="string"/>
+        <element attributes="import_attribute_name=form_1s,edge_encryption_enabled=true" label="form_1s" max_length="40" name="u_form_1s" type="string"/>
+        <element attributes="import_attribute_name=form_2p,edge_encryption_enabled=true" label="form_2p" max_length="40" name="u_form_2p" type="string"/>
+        <element attributes="import_attribute_name=form_2s,edge_encryption_enabled=true" label="form_2s" max_length="40" name="u_form_2s" type="string"/>
+        <element attributes="import_attribute_name=form_3p,edge_encryption_enabled=true" label="form_3p" max_length="40" name="u_form_3p" type="string"/>
+        <element attributes="import_attribute_name=form_3s,edge_encryption_enabled=true" label="form_3s" max_length="40" name="u_form_3s" type="string"/>
+        <element attributes="import_attribute_name=gerund,edge_encryption_enabled=true" label="gerund" max_length="40" name="u_gerund" type="string"/>
+        <element attributes="import_attribute_name=gerund_english,edge_encryption_enabled=true" label="gerund_english" max_length="40" name="u_gerund_english" type="string"/>
+        <element attributes="import_attribute_name=infinitive,edge_encryption_enabled=true" label="infinitive" max_length="40" name="u_infinitive" type="string"/>
+        <element attributes="import_attribute_name=infinitive_english,edge_encryption_enabled=true" label="infinitive_english" max_length="105" name="u_infinitive_english" type="string"/>
+        <element attributes="import_attribute_name=mood,edge_encryption_enabled=true" label="mood" max_length="40" name="u_mood" type="string"/>
+        <element attributes="import_attribute_name=mood_english,edge_encryption_enabled=true" label="mood_english" max_length="40" name="u_mood_english" type="string"/>
+        <element attributes="import_attribute_name=pastparticiple,edge_encryption_enabled=true" label="pastparticiple" max_length="40" name="u_pastparticiple" type="string"/>
+        <element attributes="import_attribute_name=pastparticiple_english,edge_encryption_enabled=true" label="pastparticiple_english" max_length="40" name="u_pastparticiple_english" type="string"/>
+        <element attributes="import_attribute_name=tense,edge_encryption_enabled=true" label="tense" max_length="40" name="u_tense" type="string"/>
+        <element attributes="import_attribute_name=tense_english,edge_encryption_enabled=true" label="tense_english" max_length="40" name="u_tense_english" type="string"/>
+        <element attributes="import_attribute_name=verb_english,edge_encryption_enabled=true" label="verb_english" max_length="79" name="u_verb_english" type="string"/>
+    </element>
+</database>
