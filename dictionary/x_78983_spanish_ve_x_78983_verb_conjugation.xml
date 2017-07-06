@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Verb Conjugation" max_length="40" name="x_78983_spanish_ve_x_78983_verb_conjugation" type="collection">
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.verb + &quot; - &quot; + current.mood + &quot; - &quot; + current.tense;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Display" max_length="255" name="display" read_only="true" type="string" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.verb.getDisplayValue() + &quot; - &quot; + current.mood + &quot; - &quot; + current.tense;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Display" max_length="255" name="display" read_only="true" type="string" virtual="true"/>
         <element label="Form 1p" max_length="100" name="form_1p" type="string"/>
         <element label="Form 1s" max_length="100" name="form_1s" type="string"/>
         <element label="Form 2p" max_length="100" name="form_2p" type="string"/>
@@ -10,11 +10,31 @@
         <element label="Form 3s" max_length="100" name="form_3s" type="string"/>
         <element label="Gerund" max_length="100" name="gerund" type="string"/>
         <element label="Gerund English" max_length="100" name="gerund_english" type="string"/>
-        <element label="Mood" max_length="100" name="mood" type="string"/>
+        <element choice="1" label="Mood" max_length="100" name="mood" type="string">
+            <choice>
+                <element label="Imperativo Afirmativo" value="Imperativo Afirmativo"/>
+                <element label="Imperativo Negativo" value="Imperativo Negativo"/>
+                <element label="Indicativo" value="Indicativo"/>
+                <element label="Subjuntivo" value="Subjuntivo"/>
+            </choice>
+        </element>
         <element label="Mood English" max_length="100" name="mood_english" type="string"/>
         <element label="Past Participle" max_length="100" name="past_participle" type="string"/>
         <element label="Past Participle English" max_length="100" name="past_participle_english" type="string"/>
-        <element label="Tense" max_length="100" name="tense" type="string"/>
+        <element choice="1" label="Tense" max_length="100" name="tense" type="string">
+            <choice>
+                <element label="Condicional" value="Condicional"/>
+                <element label="Condicional perfecto" value="Condicional perfecto"/>
+                <element label="Futuro" value="Futuro"/>
+                <element label="Futuro perfecto" value="Futuro perfecto"/>
+                <element label="Imperfecto" value="Imperfecto"/>
+                <element label="Pluscuamperfecto" value="Pluscuamperfecto"/>
+                <element label="Presente" value="Presente"/>
+                <element label="Presente perfecto" value="Presente perfecto"/>
+                <element label="Pretérito" value="Pretérito"/>
+                <element label="Pretérito anterior" value="Pretérito anterior"/>
+            </choice>
+        </element>
         <element label="Tense English" max_length="100" name="tense_english" type="string"/>
         <element label="Verb" max_length="32" name="verb" reference="x_78983_spanish_ve_x_78983_spanish_verbs" type="reference"/>
         <element label="Verb English" max_length="100" name="verb_english" type="string"/>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Test Question" max_length="40" name="x_78983_spanish_ve_test_question" type="collection">
+        <element label="Mood" max_length="40" name="mood" type="string"/>
+        <element choice="1" label="Subject" max_length="40" name="subject" reference="sys_choice" type="string">
+            <choice>
+                <element label="Él/Ella" value="3s"/>
+                <element label="Ellos" value="3p"/>
+                <element label="Nosotros" value="1p"/>
+                <element label="Tú" value="2s"/>
+                <element label="Vosotros" value="2p"/>
+                <element label="Yo" value="1s"/>
+            </choice>
+        </element>
+        <element label="Tense" max_length="40" name="tense" type="string"/>
+        <element label="Test" mandatory="true" max_length="32" name="test" reference="x_78983_spanish_ve_x_78983_spanish_verb_test" type="reference"/>
+        <element label="Verb" max_length="32" name="verb" reference="x_78983_spanish_ve_x_78983_verb_conjugation" type="reference"/>
+        <index name="index">
+            <element name="test"/>
+        </index>
+        <index name="index2">
+            <element name="verb"/>
+        </index>
+    </element>
+</database>

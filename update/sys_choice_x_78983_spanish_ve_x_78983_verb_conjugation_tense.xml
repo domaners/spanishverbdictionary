@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tense" table="x_78983_spanish_ve_x_78983_verb_conjugation" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Condicional</label>
+            <language>en</language>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <sequence/>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 18:45:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>549c05154f37320030938c318110c772</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 18:45:24</sys_updated_on>
+            <value>Condicional</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Condicional perfecto</label>
+            <language>en</language>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <sequence/>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 18:45:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24acc1154f37320030938c318110c7ec</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 18:45:59</sys_updated_on>
+            <value>Condicional perfecto</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Futuro</label>
+            <language>en</language>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <sequence/>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 18:46:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52bcc9154f37320030938c318110c7c3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 18:46:14</sys_updated_on>
+            <value>Futuro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Futuro perfecto</label>
+            <language>en</language>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <sequence/>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 18:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94dc0d154f37320030938c318110c74a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 18:47:12</sys_updated_on>
+            <value>Futuro perfecto</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Imperfecto</label>
+            <language>en</language>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <sequence/>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 18:46:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2ec05154f37320030938c318110c7bd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 18:46:52</sys_updated_on>
+            <value>Imperfecto</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pluscuamperfecto</label>
+            <language>en</language>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <sequence/>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 18:47:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adfc05154f37320030938c318110c772</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 18:47:32</sys_updated_on>
+            <value>Pluscuamperfecto</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Presente</label>
+            <language>en</language>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <sequence/>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 18:47:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc0d0d154f37320030938c318110c74a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 18:47:56</sys_updated_on>
+            <value>Presente</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Presente perfecto</label>
+            <language>en</language>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <sequence/>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 18:48:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>093dcd154f37320030938c318110c750</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 18:48:07</sys_updated_on>
+            <value>Presente perfecto</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pretérito</label>
+            <language>en</language>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <sequence/>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 18:48:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>984d8d154f37320030938c318110c7b2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 18:49:01</sys_updated_on>
+            <value>Pretérito</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pretérito anterior</label>
+            <language>en</language>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <sequence/>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 18:48:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b86dc9154f37320030938c318110c7dd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 18:48:56</sys_updated_on>
+            <value>Pretérito anterior</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tense</element>
+            <name>x_78983_spanish_ve_x_78983_verb_conjugation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin.adam</sys_created_by>
+            <sys_created_on>2017-07-05 18:45:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>50acc1154f37320030938c318110c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tense</sys_name>
+            <sys_package display_value="Spanish verb dictionary" source="x_78983_spanish_ve">9c93c3414f33320030938c318110c79c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Spanish verb dictionary">9c93c3414f33320030938c318110c79c</sys_scope>
+            <sys_update_name>sys_choice_x_78983_spanish_ve_x_78983_verb_conjugation_tense</sys_update_name>
+            <sys_updated_by>admin.adam</sys_updated_by>
+            <sys_updated_on>2017-07-05 18:45:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
