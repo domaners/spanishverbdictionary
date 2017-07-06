@@ -28,6 +28,47 @@ SpanishVerbUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
 		return wordArray.join();
 		
 	},
+	
+	generateTestQuestions: function(current) {
+		
+		var question = new GlideRecord("x_78983_spanish_ve_test_question");
+		var verbsUsed = [];
+		
+		var words = new GlideRecord("x_78983_spanish_ve_x_78983_verb_conjugation");
+		words.addQuery("verb", "IN", this.getMySavedWords());
+		words.addQuery("mood", "IN", current.moods);
+		words.addQuery("tense", "IN", current.tenses);
+		words.query();
+		
+		var rand = parseInt(Math.floor(Math.random() * words.getRowCount()) - 1);
+		
+		while(true) {
+			if (String(verbsUsed.join()).indexOf(String(rand)) < 0) {
+				verbsUsed.push(String(rand));
+				break;
+			} else {
+				rand = parseInt(Math.floor(Math.random() * words.getRowCount()) - 1);
+			}	
+		}
+	
+		for(var i = 1; i < current.number_of_questions; i++) {
+			
+			// TODO: SetLocation doesn't work in scoped apps, need a workaround
+			words.setLocation(rand);
+			
+			question.initialize();
+			question.test = current.sys_id;
+					
+			question.insert();
+			
+			
+		}
+		
+		current.status = "In Progress";
+		
+		gs.addInfoMessage(current.number_of_questions + " questions added. Good luck!");
+		
+	},
 
     type: 'SpanishVerbUtils'
 	
@@ -37,7 +78,7 @@ SpanishVerbUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_on>2017-07-06 01:10:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8ed32a594fb7320030938c318110c7aa</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>SpanishVerbUtils</sys_name>
         <sys_package display_value="Spanish verb dictionary" source="x_78983_spanish_ve">9c93c3414f33320030938c318110c79c</sys_package>
         <sys_policy/>
@@ -45,6 +86,6 @@ SpanishVerbUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_scope display_value="Spanish verb dictionary">9c93c3414f33320030938c318110c79c</sys_scope>
         <sys_update_name>sys_script_include_8ed32a594fb7320030938c318110c7aa</sys_update_name>
         <sys_updated_by>admin.adam</sys_updated_by>
-        <sys_updated_on>2017-07-06 01:34:49</sys_updated_on>
+        <sys_updated_on>2017-07-06 08:49:19</sys_updated_on>
     </sys_script_include>
 </record_update>
