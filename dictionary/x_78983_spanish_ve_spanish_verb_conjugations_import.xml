@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="sys_import_set_row" label="Spanish Verb Conjugations Import" max_length="40" name="x_78983_spanish_ve_spanish_verb_conjugations_import" type="collection">
+    <element extends="sys_import_set_row" label="Spanish Verb Conjugations Import" max_length="40" name="x_78983_spanish_ve_spanish_verb_conjugations_import" sizeclass="11466" type="collection">
         <element attributes="import_attribute_name=form_1p,edge_encryption_enabled=true" label="form_1p" max_length="40" name="u_form_1p" type="string"/>
         <element attributes="import_attribute_name=form_1s,edge_encryption_enabled=true" label="form_1s" max_length="40" name="u_form_1s" type="string"/>
         <element attributes="import_attribute_name=form_2p,edge_encryption_enabled=true" label="form_2p" max_length="40" name="u_form_2p" type="string"/>

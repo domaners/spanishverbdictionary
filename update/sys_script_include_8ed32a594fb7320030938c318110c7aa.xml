@@ -14,6 +14,45 @@ SpanishVerbUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
 		currentUser = gs.getUserID();
     },
 	
+	checkAnswers: function(current, action) {
+		
+		var score = 0;
+		
+		var questions = new GlideRecord("x_78983_spanish_ve_test_question");
+		questions.addQuery("test", current.sys_id);
+		questions.query();
+		while(questions.next()) {
+			if(questions.subject == "1s") {
+				correctAnswer = questions.verb.form_1s;
+			} else if(questions.subject == "2s") {
+				correctAnswer = questions.verb.form_2s;
+			} else if(questions.subject == "3s") {
+				correctAnswer = questions.verb.form_3s;
+			} else if(questions.subject == "1p") {
+				correctAnswer = questions.verb.form_1p;
+			} else if(questions.subject == "2p") {
+				correctAnswer = questions.verb.form_2p;
+			} else if(questions.subject == "3p") {
+				correctAnswer = questions.verb.form_3p;
+			}
+			
+			if(questions.answer.toLowerCase() == correctAnswer.toLowerCase()) {
+				questions.result = "Correct";
+				score++;
+			} else {
+				questions.result = "Incorrect";
+				questions.correct_answer = correctAnswer;
+			}
+			questions.update();
+		}
+		current.status = "Complete";
+		current.completed = new GlideDateTime().getDisplayValue();
+		current.score = (100 / questions.getRowCount()) * score;
+		gs.addInfoMessage(score + " questions correct out of " + questions.getRowCount());
+		current.update();
+		action.setRedirectURL(current);
+	},
+	
 	getMySavedWords: function() {
 		
 		var wordArray = [];
@@ -31,43 +70,67 @@ SpanishVerbUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
 	
 	generateTestQuestions: function(current) {
 		
-		var question = new GlideRecord("x_78983_spanish_ve_test_question");
-		var verbsUsed = [];
-		
 		var words = new GlideRecord("x_78983_spanish_ve_x_78983_verb_conjugation");
 		words.addQuery("verb", "IN", this.getMySavedWords());
 		words.addQuery("mood", "IN", current.moods);
 		words.addQuery("tense", "IN", current.tenses);
 		words.query();
 		
-		var rand = parseInt(Math.floor(Math.random() * words.getRowCount()) - 1);
+		var max = words.getRowCount();
+		var randomConjugationIndeces = [];
 		
-		while(true) {
-			if (String(verbsUsed.join()).indexOf(String(rand)) < 0) {
-				verbsUsed.push(String(rand));
-				break;
-			} else {
-				rand = parseInt(Math.floor(Math.random() * words.getRowCount()) - 1);
-			}	
+		while(randomConjugationIndeces.length < current.number_of_questions) {
+			var rand = parseInt(Math.floor(Math.random() * max));
+			for(var a = 0; a < randomConjugationIndeces.length; a++) {
+				if(rand == randomConjugationIndeces[a])
+					continue;
+			}
+			randomConjugationIndeces.push(rand);
 		}
-	
-		for(var i = 1; i < current.number_of_questions; i++) {
-			
-			// TODO: SetLocation doesn't work in scoped apps, need a workaround
-			words.setLocation(rand);
-			
-			question.initialize();
-			question.test = current.sys_id;
-					
-			question.insert();
-			
-			
+		
+		var wordCount = 0;
+		
+		while(words.next()) {
+			wordCount++;
+			for(var w = 0; w < randomConjugationIndeces.length; w++) {
+				if(wordCount == randomConjugationIndeces[w]) {
+					this.createQuestion(words);
+				}
+			}
 		}
 		
 		current.status = "In Progress";
+		gs.addInfoMessage(current.number_of_questions + " questions added, good luck!");
+		current.update();
+		action.setRedirectURL(current);
+				
+	},
+	
+	createQuestion: function(word) {
+		var subject = "";
+		var randSubject = Math.floor(Math.random() * 6) + 1;
+		if(randSubject == 1) {
+			subject = "1s";
+		} else if(randSubject == 2) {
+			subject = "2s";
+		} else if(randSubject == 3) {
+			subject = "3s";
+		} else if(randSubject == 4) {
+			subject = "1p";
+		} else if(randSubject == 5) {
+			subject = "2p";
+		} else if(randSubject == 6) {
+			subject = "3p";
+		}
 		
-		gs.addInfoMessage(current.number_of_questions + " questions added. Good luck!");
-		
+		var question = new GlideRecord("x_78983_spanish_ve_test_question");
+		question.initialize();
+		question.test = current.sys_id;
+		question.mood = word.mood;	
+		question.tense = word.tense;
+		question.subject = subject;
+		question.verb = word.sys_id;
+		question.insert();
 	},
 
     type: 'SpanishVerbUtils'
@@ -78,7 +141,7 @@ SpanishVerbUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_on>2017-07-06 01:10:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8ed32a594fb7320030938c318110c7aa</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_name>SpanishVerbUtils</sys_name>
         <sys_package display_value="Spanish verb dictionary" source="x_78983_spanish_ve">9c93c3414f33320030938c318110c79c</sys_package>
         <sys_policy/>
@@ -86,6 +149,6 @@ SpanishVerbUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_scope display_value="Spanish verb dictionary">9c93c3414f33320030938c318110c79c</sys_scope>
         <sys_update_name>sys_script_include_8ed32a594fb7320030938c318110c7aa</sys_update_name>
         <sys_updated_by>admin.adam</sys_updated_by>
-        <sys_updated_on>2017-07-06 08:49:19</sys_updated_on>
+        <sys_updated_on>2017-07-06 23:17:59</sys_updated_on>
     </sys_script_include>
 </record_update>

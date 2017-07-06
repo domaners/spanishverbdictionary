@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="score" label="Percent Score" language="en" table="x_78983_spanish_ve_x_78983_spanish_verb_test">
+    <sys_documentation element="result" label="Result" language="en" table="x_78983_spanish_ve_test_question">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>score</element>
+            <element>result</element>
             <help/>
             <hint/>
-            <label>Percent Score</label>
+            <label>Result</label>
             <language>en</language>
-            <name>x_78983_spanish_ve_x_78983_spanish_verb_test</name>
-            <plural>Percent Scores</plural>
+            <name>x_78983_spanish_ve_test_question</name>
+            <plural>Results</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.adam</sys_created_by>
-            <sys_created_on>2017-07-05 18:14:11</sys_created_on>
+            <sys_created_on>2017-07-06 20:26:45</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>73750d114f37320030938c318110c7de</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Percent Score</sys_name>
+            <sys_id>af6d6ae54f7f320030938c318110c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Result</sys_name>
             <sys_package display_value="Spanish verb dictionary" source="x_78983_spanish_ve">9c93c3414f33320030938c318110c79c</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Spanish verb dictionary">9c93c3414f33320030938c318110c79c</sys_scope>
-            <sys_update_name>sys_documentation_x_78983_spanish_ve_x_78983_spanish_verb_test_score_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_78983_spanish_ve_test_question_result_en</sys_update_name>
             <sys_updated_by>admin.adam</sys_updated_by>
-            <sys_updated_on>2017-07-06 23:18:42</sys_updated_on>
+            <sys_updated_on>2017-07-06 20:26:45</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

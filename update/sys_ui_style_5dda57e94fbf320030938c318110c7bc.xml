@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>result</element>
+        <name>x_78983_spanish_ve_test_question</name>
+        <style>background-color: lightgreen;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin.adam</sys_created_by>
+        <sys_created_on>2017-07-06 23:45:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5dda57e94fbf320030938c318110c7bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_78983_spanish_ve_test_question</sys_name>
+        <sys_package display_value="Spanish verb dictionary" source="x_78983_spanish_ve">9c93c3414f33320030938c318110c79c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Spanish verb dictionary">9c93c3414f33320030938c318110c79c</sys_scope>
+        <sys_update_name>sys_ui_style_5dda57e94fbf320030938c318110c7bc</sys_update_name>
+        <sys_updated_by>admin.adam</sys_updated_by>
+        <sys_updated_on>2017-07-06 23:45:52</sys_updated_on>
+        <value>Correct</value>
+    </sys_ui_style>
+</record_update>

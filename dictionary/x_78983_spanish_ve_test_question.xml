@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Test Question" max_length="40" name="x_78983_spanish_ve_test_question" type="collection">
+        <element label="Answer" max_length="48" name="answer" type="string"/>
+        <element label="Correct Answer" max_length="40" name="correct_answer" type="string"/>
         <element label="Mood" max_length="40" name="mood" type="string"/>
+        <element label="Result" max_length="40" name="result" type="string"/>
         <element choice="1" label="Subject" max_length="40" name="subject" reference="sys_choice" type="string">
             <choice>
                 <element label="Él/Ella" value="3s"/>
